@@ -187,6 +187,13 @@ header {
 }
 
 
+/*-- Feautures ----*/
+
+.section-features .long-copy {
+    margin-bottom: 40px;
+}
+
+
 /*---- MEALS SECTION AND IMAGES ---*/
 
 .section-meals {
