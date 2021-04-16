@@ -185,3 +185,28 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+
+/*---- MEALS SECTION AND IMAGES ---*/
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+.meals-showcase li {
+    width: 25%;
+    float: left;
+    display: block;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    height: auto;
+    width: 100%;
+}
