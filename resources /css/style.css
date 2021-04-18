@@ -300,6 +300,11 @@ header {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
 .btn-app img {
     width: auto;
     margin-right: 10px;
@@ -327,6 +332,9 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active {
     transition: border-bottom 0.2s, color 0.2s;
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
