@@ -338,3 +338,10 @@ a:active {
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
+
+/* --- Section Testimonials ----*/
+
+.section-testimonials {
+    background-image: url(img/back-customers.jpg);
+}
