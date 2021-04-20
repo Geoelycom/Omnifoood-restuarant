@@ -398,6 +398,10 @@ cite img {
     border-bottom: 1px solid #eBeBe8;
 }
 
+.plan-box div:last-child {
+    text-align: center;
+}
+
 .plan-price {
     font-size: 300%;
     font-weight: 100;
@@ -412,4 +416,12 @@ cite img {
 
 .plan-price-meal {
     font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
 }
