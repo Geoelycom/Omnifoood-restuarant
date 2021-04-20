@@ -378,3 +378,24 @@ cite img {
     vertical-align: middle;
     height: 50px;
 }
+
+
+/* --- Section plans ----*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #eBeBe8;
+}
+
+.plan-price {}
