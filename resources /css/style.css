@@ -391,6 +391,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
@@ -398,8 +399,15 @@ cite img {
     border-bottom: 1px solid #eBeBe8;
 }
 
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .plan-box div:last-child {
     text-align: center;
+    border: 0;
 }
 
 .plan-price {
