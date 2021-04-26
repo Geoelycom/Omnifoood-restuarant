@@ -6,13 +6,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: "lato", 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -470,7 +472,7 @@ input[type=checkbox] {
 }
 
 
-/*--- FOOTER SECTION -----*/
+/*--- FOOTER SECTION ----- */
 
 footer {
     background-color: #2e2e2e;
@@ -480,6 +482,7 @@ footer {
 .footer-nav {
     list-style: none;
     float: left;
+    font-size: 80%;
 }
 
 .footer-socail {
@@ -513,16 +516,16 @@ footer {
     color: #ddd;
 }
 
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
 .footer-socail li a:link,
 .footer-socail li a :visited {
     font-size: 150%;
-}
-
-.ion-social-facebook,
-.ion-social-googleplus,
-.ion-social-instagram,
-.ion-social-twitter {
-    transition: color 0.2s;
 }
 
 .ion-social-facebook:hover {
@@ -544,6 +547,5 @@ footer {
 footer p {
     text-align: center;
     color: #888;
-    font-size: 90%;
     margin-top: 25px;
 }
